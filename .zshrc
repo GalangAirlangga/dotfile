@@ -114,7 +114,7 @@ eval `dircolors ~/.dircolors`
 eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
-
+export PATH="~/.config/composer/vendor/bin:$PATH"
 export PATH=/opt/homebrew/bin:$PATH
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
